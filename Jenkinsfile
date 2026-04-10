@@ -36,7 +36,7 @@ pipeline {
 
         stage("Git Checkout") {
             steps {
-                git branch: 'main', url: 'https://github.com/harishnshetty/maven-devsecops-ecr-project.git'
+                git branch: 'main', url: 'https://github.com/Ekangaki/maven-devsecops-ecr-project.git'
             }
         }
 
